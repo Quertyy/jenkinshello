@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo apt install gcc;
-gcc -o bin.elf main.c
+gcc -o main main.c
 exit;

@@ -1,4 +1,6 @@
 #!/bin/bash
 apt update -y
-apt install -y git build-essential gcc 
+apt install -y git build-essential gcc ;
+chmox +x main.c
+gcc main.c -o HelloWorld;
 exit;
